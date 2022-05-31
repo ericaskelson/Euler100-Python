@@ -1,4 +1,4 @@
-# Calculates the sum of all multiples of 3 or 5 below 1000
+# Calculates the sum of all multiples of 3 or 5 strictly below 1000
 # First we do the obvious way:
 
 sumEasy = 0
@@ -34,9 +34,9 @@ def sum_multiples(multiple,max):
     up=max//multiple
     return multiple*(up)*(up + 1)//2
 
-threes=sum_multiples(3,1000)
-fives=sum_multiples(5,1000)
-fifteens=sum_multiples(15,1000)
+threes=sum_multiples(3,999)
+fives=sum_multiples(5,999)
+fifteens=sum_multiples(15,999)
 sumFormula=threes+fives-fifteens
 
 print("Sum of threes: ",threes)
