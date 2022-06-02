@@ -18,3 +18,6 @@ for i in range(3,n,2):
 print("Found all primes below",n)
 print("Total number of primes is",len(primes))
 print("Sum of primes is",sum(primes))
+
+# Aha, I didn't think to do a true Eratosthenes sieve. Need to try that next time, if 
+# I can figure out bit arrays in Python.
