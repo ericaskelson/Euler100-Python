@@ -15,6 +15,6 @@ sum = sum(toSum)
 firstTenDigits = str(sum)[0:10]
 
 print("Sum is",sum)
-print("First ten gitis are",firstTenDigits)
+print("First ten digits are",firstTenDigits)
 
 # Yeah, I feel like Python is cheating with the arbitrary length integers
