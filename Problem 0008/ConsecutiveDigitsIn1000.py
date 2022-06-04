@@ -1,3 +1,6 @@
+# Problem 8 - Largest product in a series
+# https://projecteuler.net/problem=8
+# 
 # Need to find the 13 consecutive digits with the largest product out of this enormous number
 
 import math

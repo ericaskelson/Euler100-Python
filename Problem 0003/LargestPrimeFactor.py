@@ -1,3 +1,6 @@
+# Problem 3 - Largest prime factor
+# https://projecteuler.net/problem=3
+# 
 # Goal is to find the largest prime factor of the number 600851475143.
 # First things first, let's see just how horribly slow it would be for us to take the naive
 # approach

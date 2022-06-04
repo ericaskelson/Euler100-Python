@@ -1,3 +1,6 @@
+# Problem 4 - Largest palindrome product
+# https://projecteuler.net/problem=4
+#
 # Calculate the largest palindrome number that is the product of two three digit numbers
 # Start with the dumb approach, I guess!
 

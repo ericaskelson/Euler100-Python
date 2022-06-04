@@ -1,3 +1,6 @@
+# Problem 10 - Summation of primes
+# https://projecteuler.net/problem=10
+# 
 # Need to sum all primes below n. Going to try sieve method. Maybe too many?
 import math
 

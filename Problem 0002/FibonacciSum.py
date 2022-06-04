@@ -1,3 +1,6 @@
+# Problem 2 - Even Fibonacci numbers
+# https://projecteuler.net/problem=2
+# 
 # This program is intended to calculate the sum of all even valued terms
 # in the Fibonacci sequence which do not exceed 4 million.
 

@@ -1,3 +1,6 @@
+# Problem 1 - Multiples of 3 or 5
+# https://projecteuler.net/problem=1
+# 
 # Calculates the sum of all multiples of 3 or 5 strictly below 1000
 # First we do the obvious way:
 

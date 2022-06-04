@@ -1,3 +1,6 @@
+# Problem 69 - Totient maximum
+# https://projecteuler.net/problem=69
+# 
 # This is trickier. I think that I can maximize n/phi(n) by making some sort of supercomposite number
 # I'll use a simple implementation for phi, and just try to narrow down my search space
 

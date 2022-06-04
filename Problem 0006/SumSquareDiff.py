@@ -1,3 +1,6 @@
+# Problem 6 - Sum square difference
+# https://projecteuler.net/problem=6
+# 
 # Calculates the difference between the sum of squares and the square of sums for integers between 1 and 100
 # Seems really easy? I must be missing something here.
 

@@ -1,3 +1,6 @@
+# Problem 7 - 10001st prime
+# https://projecteuler.net/problem=7
+# 
 # The task is to find the 10,001st prime number. We should start with brute force, I think?
 
 Nth = 10001

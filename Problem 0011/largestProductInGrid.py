@@ -1,3 +1,6 @@
+# Problem 11 - Largest product in a grid
+# https://projecteuler.net/problem=11
+# 
 # Need to read in the grid and then multiply. No speed issue, seems it's just a matter of pulling the values
 
 import math

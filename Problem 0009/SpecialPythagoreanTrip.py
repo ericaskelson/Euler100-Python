@@ -1,3 +1,6 @@
+# Problem 9 - Special Pythagorean triplet
+# https://projecteuler.net/problem=9
+# 
 # Need to find a, b, and c, such that:
 # a < b < c
 # and a**2 + b**2 = c**2

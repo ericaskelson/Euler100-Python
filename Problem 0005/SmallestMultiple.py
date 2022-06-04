@@ -1,3 +1,6 @@
+# Problem 5 - Smallest multiple
+# https://projecteuler.net/problem=5
+# 
 # Find the smallest positive number evenly divisible by all numbers from 1 to 20
 # Clean way is to get the union of the unique decompositions of everything from 1 to 20
 

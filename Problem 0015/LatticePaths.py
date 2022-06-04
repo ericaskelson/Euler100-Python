@@ -1,3 +1,6 @@
+# Problem 15 - Lattice paths
+# https://projecteuler.net/problem=15
+# 
 # This program finds all the ways you can get from the top left of an nxm grid down
 # to the bottom right, assuming you can only move to the right and down
 
