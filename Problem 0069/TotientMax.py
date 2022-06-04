@@ -1,7 +1,6 @@
 # This is trickier. I think that I can maximize n/phi(n) by making some sort of supercomposite number
 # I'll use a simple implementation for phi, and just try to narrow down my search space
 
-from configparser import MAX_INTERPOLATION_DEPTH
 import math
 
 def relatively_prime(a,b):
@@ -32,27 +31,35 @@ def primes_up_to(n):
     return primes
 
 toCheck = 1000
-target = 1*(10**5)
+target = 1*(10**6)
 
 primelist = primes_up_to(toCheck)
 
-j=10000
-print("About to check phi speed")
-print("Phi(",j,") =",phi(j))
+# j=10000
+# print("About to check phi speed")
+# print("Phi(",j,") =",phi(j))
 
 currProd = 1
+currPhi = 1
 currRatio = 1
 maxProd = 1
+maxPhi = 1
 maxRatio = 1
 
-# for i in range(toCheck):
-#     currProd = currProd*primelist[i]
-#     print("i =",i,"i'th prime =",primelist[i],"current product =",currProd)
-#     if currProd>target: break
-#     currRatio = currProd/phi(currProd)
-#     if currRatio > maxRatio:
-#         maxProd = currProd
-#         maxRatio = currRatio
-#         print("New highest ratio with n =",currProd,"and n/phi(n) ratio of",currRatio)
+for i in range(toCheck):
+    currProd = currProd*primelist[i]
+    print("i =",i,"i'th prime =",primelist[i],"current product =",currProd)
+    if currProd>target: break
+    currPhi = currPhi*(primelist[i]-1)
+    currRatio = currProd/currPhi
+    if currRatio > maxRatio:
+        maxProd = currProd
+        maxPhi = maxPhi
+        maxRatio = currRatio
+        print("New highest ratio with n =",currProd,"and n/phi(n) ratio of",currRatio)
 
-# TOOO SLOOOOW
+# Dude, I got it! Very nice. 
+# Takeaways were: first, my guess that the ratio would be maximized by taking the product of primes was right
+# Second, my old phi function was super slow, but the totient function is multiplicative on m*n if m and n are relatively prime
+#   My m's and n's were all absolutely prime, and phi(n) is n-1 if n is prime, so calculating the product phi was trivial
+# Very very nice problem - I can't imagine how you'd get it to run in reasonable time otherwise
