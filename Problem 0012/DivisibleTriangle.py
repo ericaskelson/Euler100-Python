@@ -101,3 +101,6 @@ while maxFactors < 500:
         print("New biggest factors at triangle number",i,"which is",tr,"and has",maxFactors)
 
 # Ohhhh, man. Okay. Maybe there was a better way, but that worked, and it was fast!
+
+# Well, reading the solution, the obvious thing I missed is that, given a prime factorization you can
+# get the number of possible factors by taking the product of the exponents on the primes.
