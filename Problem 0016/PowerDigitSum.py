@@ -6,14 +6,12 @@
 # integer math scales?
 
 n = 1000
-bigNum = 2**n
-bigStr = str(bigNum)
 
 digitSum = 0
 
-for c in bigStr:
+for c in str(2**n):
     digitSum += int(c)
 
-print("Sum of digits of 2**",n,"is",digitSum)
+print("Sum of digits of 2 **",n,"is",digitSum)
 
 # HA - it just works. That's honestly just silly. Thank you Python.
