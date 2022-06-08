@@ -15,3 +15,6 @@ for c in str(2**n):
 print("Sum of digits of 2 **",n,"is",digitSum)
 
 # HA - it just works. That's honestly just silly. Thank you Python.
+
+# Courtesy of the forums, I love this alternative solution user "xor" listed:
+# sum(int(digit) for digit in str(2**1000))
