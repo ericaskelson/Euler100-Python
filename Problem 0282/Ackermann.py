@@ -26,22 +26,24 @@ def AO(m,n):
     goal = [1]*(m+1)
     goal[m] = -1
 
+
     while next[m] != n+1:
         value = next[0]+1
         transferring = True
         i = 0
         while transferring:
+            print("Next =",next)
+            print("Goal =",goal)
+            print("Value =",value)
+            print("i =",i)
             if next[i] == goal[i]: goal[i] = value
             else: transferring = False
             next[i] = next[i]+1
             i += 1
     return value
 
-n = 4
-
-for i in range(n+1):
-    for j in range(n+1):
-        print("AO(",i,",",j,") = ",AO(i,j),sep="")
+i = 2
+print("AO(",i,",",i,") = ",AO(i,i),sep="")
 
 # Definitely faster, and it doesn't explode the stack, but still nowhere
 # near fast enough for our purposes. Need to grok the logic here better
