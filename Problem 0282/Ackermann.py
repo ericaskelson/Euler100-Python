@@ -1,5 +1,5 @@
-# Problem 69 - Totient maximum
-# https://projecteuler.net/problem=69
+# Problem 282 - The Ackermann function
+# https://projecteuler.net/problem=282
 # 
 # This is probably one of those horribly recursive things, so I'll just try out
 # the naive solution first and see how fast it runs
